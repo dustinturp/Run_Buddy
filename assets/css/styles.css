@@ -129,7 +129,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.form-input{
+.form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -138,7 +138,14 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
+
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
 .hero-form label {
     margin: 0 5px;
 
@@ -189,7 +196,7 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
+    /* border-bottom: 1px solid #39a6b2; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -229,6 +236,17 @@ section {
     line-height: 1.5;
     color: #024e76;
 
+}
+
+
+/* .step:last-child { */
+    /* apples border to last image */
+    /* border-bottom: 1px solid #39a6b2; */
+/* }  */
+
+.step:not(:last-child) {
+    /* apples to all except last*/
+    border-bottom: 1px solid #39a6b2;
 }
 
 .section-title {
@@ -336,7 +354,13 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none; 
+}
+
 .contact-form button {
     width: 100%;
     border: none;
