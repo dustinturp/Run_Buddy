@@ -1,14 +1,12 @@
 # Run Buddy
 
 ## Purpose
-A website that offers fitness training services.
+Class project to build a website that offers fitness training services.
+Focusing on understanding the building blocks of static web pages.
 
 ## Built With
 * HTML
 * CSS
 
-## Website
-https://dustinturp.github.io/mod1_prj
+## [https://dustinturp.github.io/mod1_prj](Live on GitHub Pages)
 
-## Contribution
-Made with ❤️ by Dustin
