@@ -9,5 +9,5 @@ Learn about accessability options in HTML.
 * HTML
 * CSS
 
-## [https://dustinturp.github.io/mod1_prj](Live on GitHub Pages)
+## (https://dustinturp.github.io/mod1_prj)[Live on GitHub Pages]
 
